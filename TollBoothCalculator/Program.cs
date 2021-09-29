@@ -25,12 +25,12 @@ namespace TollBoothCalculator
 
             foreach (IVehicle vehicle in vehicles)
             {
-                int distance = rnd.Next(10,240)+1;
+                int distance = rnd.Next(10,241);
                 decimal toll = (decimal)vehicle.CalculateToll(distance);
                 sumTolls += toll;
                 sumMiles += distance;
 
-                Console.WriteLine($"{vehicle}     {distance}    {toll.ToString("C")}");
+                Console.WriteLine($"{vehicle}     {distance}               {toll.ToString("C")}");
             }
 
             Console.WriteLine();

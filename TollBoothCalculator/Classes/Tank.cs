@@ -13,7 +13,7 @@ namespace TollBoothCalculator.Classes
 
         public override string ToString()
         {
-            return "Tank";
+            return "Tank                ";
         }
     }
 }

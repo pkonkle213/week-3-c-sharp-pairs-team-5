@@ -27,11 +27,11 @@ namespace TollBoothCalculator.Classes
         {
             if (HasTrailer)
             {
-                return "Car (with trailer)";
+                return "Car (with trailer)  ";
             }
             else
             {
-                return "Car";
+                return "Car                 ";
             }
         }
     }

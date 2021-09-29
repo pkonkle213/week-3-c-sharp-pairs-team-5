@@ -34,7 +34,7 @@ namespace TollBoothCalculator.Classes
 
         public override string ToString()
         {
-            return $"Truck ({NumberOfAxles} axels)";
+            return $"Truck ({NumberOfAxles} axels)     ";
         }
     }
 }

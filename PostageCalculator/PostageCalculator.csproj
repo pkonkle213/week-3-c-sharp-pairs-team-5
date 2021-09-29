@@ -9,9 +9,4 @@
     <None Remove="Classes\.gitkeep" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Classes\" />
-    <Folder Include="Classes\" />
-  </ItemGroup>
-
 </Project>
