@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -7,11 +7,6 @@
 
   <ItemGroup>
     <None Remove="Classes\.gitkeep" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Classes\" />
-    <Folder Include="Classes\" />
   </ItemGroup>
 
 </Project>
